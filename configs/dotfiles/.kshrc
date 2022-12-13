@@ -17,3 +17,5 @@ alias du='du -h'
 alias rsize='eval $(resize)'
 alias vi=vim
 alias ls="colorls -GF"
+alias sent="$HOME/.local/bin/sent"
+alias pfetch="$HOME/.local/bin/pfetch"
