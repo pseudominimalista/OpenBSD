@@ -68,6 +68,7 @@ Key l			A		CM	  Exec exec xlock -mode pacman
 Key v			A		4	  Exec exec xterm /usr/local/bin/vim
 Key z			A		4	  Exec exec /usr/local/bin/filezilla
 Key c			A		S4	  Exec exec xcalc
+Key p           A       4       Exec exec $HOME/.local/bin/shotgun
 
 
 # some simple default mouse bindings:
