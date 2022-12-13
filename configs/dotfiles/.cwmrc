@@ -1,0 +1,107 @@
+#### cores ####
+
+color menubg	"#1e1e2e"
+color menufg	"#1e1e2e"
+color font		"#cdd6f4"
+color selfont	"#cdd6f4"
+
+#### Grupos/Áreas de trabalho ####
+
+sticky yes
+
+bind-key 4-1		group-only-1
+bind-key 4-2		group-only-2
+bind-key 4-3		group-only-3
+bind-key 4-4		group-only-4
+bind-key 4-0		group-toggle-all
+
+bind-key M-1		window-movetogroup-1		
+bind-key M-2		window-movetogroup-2		
+bind-key M-3		window-movetogroup-3	
+bind-key M-4		window-movetogroup-4		
+
+#
+#	Teclado
+#
+#	C = Ctrl
+#	M = Alt
+#	S = Shift
+#	4 = Super
+#
+
+unbind-key			M-Return
+unbind-key			CM-Return
+unbind-key			M-Down
+unbind-key			M-Up
+unbind-key			M-slash
+unbind-key			C-slash
+unbind-key			CM-n
+unbind-key			CM-x
+unbind-key			CM-[n]
+unbind-key			CM-a
+unbind-key			CM-equal
+unbind-key			CMS-equal
+unbind-key			M-question
+unbind-key			M-period
+unbind-key			CM-w
+unbind-key			CM-g
+unbind-key			CMS-s
+unbind-key			CM-s
+unbind-key			CM-f
+unbind-key			CM-m
+unbind-key			M-h
+unbind-key			M-j
+unbind-key			M-k
+unbind-key			M-l
+unbind-key			SM-h
+unbind-key			SM-j
+unbind-key			SM-k
+unbind-key			SM-l
+
+bind-key 4-Left		window-move-left-big
+bind-key 4-Down		window-move-down-big
+bind-key 4-Up		window-move-up-big
+bind-key 4-Right	window-move-right-big
+
+bind-key M4-Left	window-resize-left
+bind-key M4-Down	window-resize-down
+bind-key M4-Up		window-resize-up
+bind-key M4-Right	window-resize-right
+
+bind-key 4-r 		restart
+bind-key 4-e 		terminal
+bind-key 4-q 		window-close
+bind-key 4-f 		window-fullscreen
+bind-key 4-t 		window-vtile
+
+bind-key 4-w		/usr/local/bin/firefox
+bind-key 4-z		/usr/local/bin/filezilla
+bind-key 4-x		/usr/local/bin/xonotic-sdl
+bind-key 4-c 		/usr/X11R6/bin/xterm /usr/local/bin/cmixer
+bind-key 4-v		/usr/X11R6/bin/xterm /usr/local/bin/vim
+bind-key 4-p		/usr/local/bin/shotgun
+bind-key 4-s		/home/john/.local/bin/bat
+bind-key M4-c		xcalc
+
+#
+#	Mouse  
+#
+#	C = Ctrl
+#	M = Alt
+#	S = Shift
+#	4 = Super
+#
+#	1 = Botão esquerdo 
+#	2 = Botão do meio 
+#	3 = Botão direito
+#
+
+unbind-mouse		1
+unbind-mouse		2
+unbind-mouse		3
+unbind-mouse		M-1
+unbind-mouse		M-2
+unbind-mouse		M-3
+
+bind-mouse 4-1		window-move
+bind-mouse 4-3 		window-resize
