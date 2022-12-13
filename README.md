@@ -9,6 +9,7 @@ Alguns programas que eu uso são:
 - `feh`			-	Visualizador de imagens e configurador de wallpapers  
 - `dunst`		-	Daemon de notificações  
 - `vim`			-	Editor de texto/IDE  
+- `filezilla` - Cliente FTP
 
 ### A fazer  
 - [ ] Script de configuração automática  
