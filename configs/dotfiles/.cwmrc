@@ -79,7 +79,7 @@ bind-key 4-z		/usr/local/bin/filezilla
 bind-key 4-x		/usr/local/bin/xonotic-sdl
 bind-key 4-c 		/usr/X11R6/bin/xterm /usr/local/bin/cmixer
 bind-key 4-v		/usr/X11R6/bin/xterm /usr/local/bin/vim
-bind-key 4-p		/usr/local/bin/shotgun
+bind-key 4-p		/home/john/.local/bin/shotgun
 bind-key 4-s		/home/john/.local/bin/bat
 bind-key M4-c		xcalc
 
